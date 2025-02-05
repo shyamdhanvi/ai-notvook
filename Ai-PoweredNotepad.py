@@ -67,9 +67,9 @@ class AINotePad:
 
         # Ollama API settings
         self.ollama_url = "http://localhost:11434/api/generate"
-        self.model = "tinyllama"  # Default model
+        self.model = "deepseek-r1:1.5b"  # Default model
         self.last_request_time = 0
-        self.suggestion_delay = 1.0  # Delay in seconds
+        self.suggestion_delay = 0.5  # Delay in seconds
         self.last_text = ""
         self.suggestion_thread = None
 
@@ -168,8 +168,8 @@ class AINotePad:
                 "prompt": prompt,
                 "stream": False,
                 "options": {
-                    "temperature": 0.7,
-                    "num_predict": 10
+                    "temperature": 0.1,
+                    "num_predict": 30
                 }
             }
             

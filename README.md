@@ -147,6 +147,10 @@ python notepad.py
    - Restart the application
    - Check Ollama installation
 
+4. **Use Fine Tuned Models for generating good ai answeres and recommendations**
+   -ollama run deepseek-r1:70b
+   -ollama run deepseek-r1:32b
+   -fine Tune the exisiting LLM
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
