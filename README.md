@@ -2,6 +2,8 @@
 
 A sophisticated notepad application featuring real-time AI-powered suggestions powered by Ollama's state-of-the-art language models.
 
+*This Application doesnot use tuned models, so the output may not be accurate.*
+
 ## ✨ Features
 
 ### Core Features
